@@ -21,8 +21,7 @@ const TableStyled = styled.table`
   border-spacing: 5px;
   background: ${props => (props.BgColor ? props.BgColor : 'white')};
   color: #656665;
-  // border: 16px solid #ECE9E0;
-  // border-radius: 20px;
+  
 `;
 const Warning = styled.div`
   color: red;
@@ -31,7 +30,7 @@ const Warning = styled.div`
 `;
 
 const TableHead = styled.thead`
-  // background: papayawhip;
+  
   text-align: center;
 `;
 
