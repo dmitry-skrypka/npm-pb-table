@@ -1,17 +1,25 @@
 //Headers
-import {Headers} from "./config";
+import {DefaultHeaders} from "./config";
 import React from "react";
 import styled from 'styled-components';
 
 
 const Header = styled.th`
-border: 1px solid
+text-transform: uppercase;
 `
 
-const headersList = Headers.map((name, index) => <Header key={index}>{name}</Header>);
+;
 
 export default class DrawHeaders extends React.Component {
+
 	render() {
-		return headersList;
+		const Headers = this.props.headers ? this.props.headers : DefaultHeaders;
+		const headersList = Headers.map((name, index) => <Header key={index}>{name}</Header>);
+		return (headersList)
 	}
+
+
+
+
+
 }

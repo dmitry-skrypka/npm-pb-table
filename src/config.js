@@ -1,7 +1,8 @@
-export const Headers = ['ID',  'category', 'price', 'qty', 'Name'];
+export const DefaultHeaders = ['ID',  'category', 'price', 'qty', 'Name'];
+export const Headers = ['ID`s',  'category', 'price', 'qty', 'Name'];
 export const DefaultData = [{
 	id: 'no data'
-}]
+}];
 export const Data = [
 	{
 		id: 1,
