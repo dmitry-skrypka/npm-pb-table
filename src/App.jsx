@@ -9,7 +9,7 @@ import styled from 'styled-components';
 
 const TableWrapper = styled.div`
     background: ${props => (props.BgColor ? 'white' : 'white')};
-    border: 1px solid
+   
     text-align: -webkit-center;
     padding: 20px;
     `;
