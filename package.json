@@ -1,5 +1,5 @@
 {
-  "name": "npm-table",
+  "name": "npm-pb-table",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
